@@ -14,3 +14,6 @@ create jsconfig.json and paste following content for auto suggestion
 Under root>support>commands.js paste following lines at last:
 /// <reference types="Cypress" />
 /// <reference types="cypress-xpath" />
+
+// Pause script execution in browser in 5 seconds
+setTimeout(() => { debugger; }, 5000)

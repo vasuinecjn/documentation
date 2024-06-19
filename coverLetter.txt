@@ -1,0 +1,22 @@
+Dear Client,
+
+I am writing to express my interest in your job posting for Automation Tester on Upwork. With a strong background in "Automation Testing, Selenium, API Testing, Manual Testing, Java, Backend & Frontend testing, excellent coding skill", I am confident in my ability to deliver exceptional results for your project.
+
+Key Qualifications:
+Experience: I have 13+ years of experience in Testing. During this time, I have successfully completed projects similar to yours, such as UI Automation (using Selenium Java, Selenium Python, Cypress), API automation (Java Rest Assured, Python requests api), Big data ETL Backend automation using spark, hive and java.
+Skills: My proficiency includes designing automation framework, Selenium Java, Selenium Python, Cypress, API automation (Java Rest Assured, Python requests api), Big data ETL Backend automation using spark, hive and java etc
+Why I'm a Good Fit:
+Understanding of Your Needs: I have carefully reviewed your project requirements and understand that you need my skills are matching. My expertise in skills will allow me to deliver exactly what you need.
+Communication: I believe clear and regular communication is key to successful collaboration. I am available [mention your availability, time zone, and preferred communication methods].
+Results-Oriented: My goal is to ensure your project is completed on time and to your satisfaction. I am dedicated to going above and beyond to deliver exceptional results.
+
+I am excited about the opportunity to contribute to your project. Please feel free to contact me via Upwork messaging to schedule a time to discuss your project further or if you have any questions.
+
+Thank you for considering my application. I look forward to the possibility of working together and contributing to your success.
+
+Best regards,
+
+Srinivas JN
+Git: https://github.com/vasuinecjn/yt_cy_pom_dd
+vasuinecjn@gmail.com
++91 9686567911

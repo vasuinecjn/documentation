@@ -38,11 +38,11 @@ Key Components of Cypress Architecture
 
 
 7. How Cypress Commands Are Executed:
-	1. Writing Cypress Commands
-	2. Command Chaining
-	3. Queuing Mechanism
-	4. Execution Loop
-	5. Command Execution Example
+	- Writing Cypress Commands
+	- Command Chaining
+	- Queuing Mechanism
+	- Execution Loop
+	- Command Execution Example
 		- cy.visit('/login') is added to the queue.
 		- cy.get('input[name="username"]').type('myUsername') is added to the queue.
 		- cy.get('input[name="password"]').type('myPassword') is added to the queue.

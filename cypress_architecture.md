@@ -43,8 +43,9 @@ Key Components of Cypress Architecture
 	- Queuing Mechanism
 	- Execution Loop
 	- Command Execution Example
-		- cy.visit('/login') is added to the queue.
-		- cy.get('input[name="username"]').type('myUsername') is added to the queue.
-		- cy.get('input[name="password"]').type('myPassword') is added to the queue.
-		- cy.get('button[type="submit"]').click() is added to the queue.
-
+		```javascript
+  			cy.visit('/login'); is added to the queue.
+  			cy.get('input[name="username"]').type('myUsername'); is added to the queue.
+  			cy.get('input[name="password"]').type('myPassword'); is added to the queue.
+  			cy.get('button[type="submit"]').click(); is added to the queue.
+  		```

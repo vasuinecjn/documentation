@@ -2,7 +2,7 @@
 
 **- Cypress Test Runner**
 **- Node.js Backend**
-**- Cpress CLI**
+**- Cypress CLI**
 **- Browser Execution**
 **- Test Code and Application Code**
 

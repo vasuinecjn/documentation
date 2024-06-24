@@ -1,4 +1,4 @@
-# **_Key Components of Cypress Architecture_**
+# Key Components of Cypress Architecture
 - **Cypress Test Runner**
 - **Node.js Backend**
 - **Cypress CLI**

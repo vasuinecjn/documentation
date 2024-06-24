@@ -31,14 +31,14 @@ The CLI is an essential tool for integrating cypress into your test development 
 - **Test Code and Application Code**
 
     In cypress, your test code runs alongside your application code in the same execution loop. This unique approach allows for:
-        - **1. Synchronous execution**:
+    - **1. Synchronous execution**:
         (Show the heading in video file and read from here)
         Unlike traditional selenium based frameworks that use asynchronous execution, cypress runs synchronously making it easier to write and understand tests.
-        - **2. Access to application internals**:
+    - **2. Access to application internals**:
             (Show the heading in video file and read from here)
             Cypress can access and manipulate the state of your application, providing powerful capabilities for testing complex scenarios. I have not tested this feature but seems its gonna be a time saving feature especially when you are testing a front heavy application.
             As a tester, I always profer to test in the same condition as it was delivered to us then only we can certify the quality else quality go for a toss. But if you are testing a frontend heavy application and showing the information from multiple apis in the UI and if one or two api is still under development, we can stubb those api requests and test rest of the apis. This way test won't get halted. (Stubbing is mainly used to replicate the behaviour of an API in a controlled manner with predefined responses which allows to focus on testing the integration and functionality of the code without worrying about external dependencies.)
-        - **3. Automatic waiting>**:
+    - **3. Automatic waiting>**:
             (Show the heading in video file and read from here)
             Cypress automatically waits for elements to appear reducing the need for hardcoding the waits and timeouts.
         

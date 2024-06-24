@@ -49,3 +49,4 @@ Key Components of Cypress Architecture
   			cy.get('input[name="password"]').type('myPassword'); is added to the queue.
   			cy.get('button[type="submit"]').click(); is added to the queue.
   		```
+# Conclusion

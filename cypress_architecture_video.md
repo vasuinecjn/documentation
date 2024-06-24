@@ -7,9 +7,12 @@
 
 
 # _Cypress Test Runner_
-	- **_Real-time reloads_**: Tests are re-executed automatically when code changes.
-	- Time-travel: View snapshots of your application at each step of your tests.
-	- Detailed logs: See detailed logs and error messages to debug your tests effectively
+- **Real-time reloads**: 
+		Tests are re-executed automatically when code changes.
+- **Time-travel**: 
+		View snapshots of your application at each step of your tests.
+- **Detailed logs**: 
+		See detailed logs and error messages to debug your tests effectively
 
 # _Node.js Backend_
 	- Executing the Cypress CLI commands.

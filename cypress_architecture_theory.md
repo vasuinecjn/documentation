@@ -55,10 +55,10 @@ The CLI is an essential tool for integrating cypress into your test development 
 - **3. How it all comes together**:
 
     When you run a Cypress test, here's what happens under the hood (Show the video file for pointers and explain from this file)
-    - **1. Initialization :** The Cypress CLI initializes the Test Runner, which opens the specified browser and loads your application.
-    - **2. Test Execution :** The test code is executed in the browser's context, interacting with the application as a user would.
-    - **3. Node.js Integration :** The Node.js backend handles any necessary server-side tasks, such as stubbing network requests or accessing the file system.
-    - **4. Real-time Feedback :** The Test Runner provides real-time feedback, displaying the results of each test step, and allowing you to debug issues on the spot.
+    - **Initialization :** The Cypress CLI initializes the Test Runner, which opens the specified browser and loads your application.
+    - **Test Execution :** The test code is executed in the browser's context, interacting with the application as a user would.
+    - **Node.js Integration :** The Node.js backend handles any necessary server-side tasks, such as stubbing network requests or accessing the file system.
+    - **Real-time Feedback :** The Test Runner provides real-time feedback, displaying the results of each test step, and allowing you to debug issues on the spot.
 
 
 # How Cypress Commands Are Added to the Queue:

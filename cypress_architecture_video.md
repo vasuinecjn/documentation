@@ -24,7 +24,8 @@ See detailed logs and error messages to debug your tests effectively
 - Run tests in headless mode for CI/CD integration.
 - Configure various settings for your test environment.
 
-# _Browser Execution Show the architecture diagram_
+# _Browser Execution_ 
+Show the architecture diagram
 - Cypress can trigger native events like clicks, typing and scrolling, ensuring your tests interact with the application as a user would.
 - Each test runs in a clean state, isolated from other tests, which helps prevent flaky tests and ensures consistent results.
 - Running tests directly in the browser allows for fast execution and immediate feedback.

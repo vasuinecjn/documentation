@@ -67,21 +67,21 @@ Cypress commands are added to the command queue in a way that ensures they are e
 - **Writing Cypress Commands**:
     When you write Cypress tests, you typically chain commands together. Each command you write gets added to an internal queue managed by Cypress.
         **Example Test**:
-        ```javascript
+    ```javascript
             cy.visit('/login');
             cy.get('input[name="username"]').type('myUsername');
             cy.get('input[name="password"]').type('myPassword');
             cy.get('button[type="submit"]').click();
-        ```
+    ```
 - **Command Chaining**:
     Cypress commands are designed to be chainable. Each command returns a `cy` object, allowing you to chain the next command.
         - **Chaining Example:**
-        ```javascript
-        cy.visit('/login')
+    ```javascript
+            cy.visit('/login')
             .get('input[name="username"]').type('myUsername')
             .get('input[name="password"]').type('myPassword')
             .get('button[type="submit"]').click();
-        ```
+    ```
 - **Queuing Mechanism**:
     When Cypress encounters a command, it doesn't execute it immediately. Instead, it adds the command to an internal queue. This queuing mechanism ensures that commands are executed in the exact order they are written, one after another.
         - **Command Queue**:

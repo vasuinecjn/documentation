@@ -22,13 +22,13 @@ The cypress command line interface (CLI) is the tool you use to interact with cy
 (Read from video file | Sow the example)
 The CLI is an essential tool for integrating cypress into your test development and workflow.
 
-- **Browser Execution**
+- **_Browser Execution_**
 
     Cypress runs tests directly in the browser providing a true end to end testing environment.
     This approach has several advantages:
     (Read from video file | Show the example)
 
-- **Test Code and Application Code**
+- **_Test Code and Application Code_**
 
     In cypress, your test code runs alongside your application code in the same execution loop. This unique approach allows for:
     - **1. Synchronous execution**:
@@ -52,7 +52,7 @@ The CLI is an essential tool for integrating cypress into your test development 
             In other hand, cypress waiting mechanism is not like selenium <Show the cypress architecture and explain this context.>
 
 
-- **3. How it all comes together**:
+- **_How it all comes together_**:
 
     When you run a Cypress test, here's what happens under the hood (Show the video file for pointers and explain from this file)
     - **Initialization :** The Cypress CLI initializes the Test Runner, which opens the specified browser and loads your application.

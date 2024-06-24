@@ -27,13 +27,13 @@ This approach has several advantages:
 
 - **2. Test Code and Application Code**
 In cypress, your test code runs alongside your application code in the same execution loop. This unique approach allows for:
-    - **1. <Show the heading in video file and read from here>  Synchronous execution**
+    - **1. <Show the heading in video file and read from here>  Synchronous execution**:
         Unlike traditional selenium based frameworks that use asynchronous execution, cypress runs synchronously making it easier to write and understand tests.
-    - **2. <Show the heading in video file and read from here>  Access to application internals**
-            Cypress can access and manipulate the state of your application, providing powerful capabilities for testing complex scenarios. I have not tested this feature but seems its gonna be a time saving feature especially when you are testing a front heavy application.
-            As a tester, I always profer to test in the same condition as it was delivered to us then only we can certify the quality else quality go for a toss. But if you are testing a frontend heavy application and showing the information from multiple apis in the UI and if one or two api is still under development, we can stubb those api requests and test rest of the apis. This way test won't get halted. (Stubbing is mainly used to replicate the behaviour of an API in a controlled manner with predefined responses which allows to focus on testing the integration and functionality of the code without worrying about external dependencies.)
-    - **3. <Show the heading in video file and read from here> Automatic waiting>**
-            Cypress automatically waits for elements to appear reducing the need for hardcoding the waits and timeouts.
+    - **2. <Show the heading in video file and read from here>  Access to application internals**:
+        Cypress can access and manipulate the state of your application, providing powerful capabilities for testing complex scenarios. I have not tested this feature but seems its gonna be a time saving feature especially when you are testing a front heavy application.
+        As a tester, I always profer to test in the same condition as it was delivered to us then only we can certify the quality else quality go for a toss. But if you are testing a frontend heavy application and showing the information from multiple apis in the UI and if one or two api is still under development, we can stubb those api requests and test rest of the apis. This way test won't get halted. (Stubbing is mainly used to replicate the behaviour of an API in a controlled manner with predefined responses which allows to focus on testing the integration and functionality of the code without worrying about external dependencies.)
+    - **3. <Show the heading in video file and read from here> Automatic waiting>**:
+        Cypress automatically waits for elements to appear reducing the need for hardcoding the waits and timeouts.
         
         When using Selenium for web automation, waiting for elements to load on a page can be tricky. 
         Though we have Implicit Waits and Explicit Waits, test cases are often faile with these reasons
@@ -45,9 +45,8 @@ In cypress, your test code runs alongside your application code in the same exec
         In other hand, cypress waiting mechanism is not like selenium <Show the cypress architecture and explain this context.>
 
 
-- **3. How it all comes together**
-When you run a Cypress test, here's what happens under the hood:
-<Show the video file for pointers and explain from this file.>
+- **3. How it all comes together**:
+When you run a Cypress test, here's what happens under the hood <Show the video file for pointers and explain from this file.>:
     - **1. Initialization :** The Cypress CLI initializes the Test Runner, which opens the specified browser and loads your application.
     - **2. Test Execution :** The test code is executed in the browser's context, interacting with the application as a user would.
     - **3. Node.js Integration :** The Node.js backend handles any necessary server-side tasks, such as stubbing network requests or accessing the file system.

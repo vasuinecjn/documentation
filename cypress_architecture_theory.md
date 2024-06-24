@@ -2,11 +2,11 @@
 Cypress is a unique end to end testing framework that offers a modern and friendly approach to testing applications. Understanding its architecture is crucial to leveraging its full potential. In this explanation, we will break down the key components of cypress architecture and how they work together to provide a seamless testing experience. 
 
 # Key components:
-    - Cypress Test Runner**
-    - Node.js Backend**
-    - Cpress CLI**
-    - Browser Execution**
-    - Test Code and Application Code**
+- Cypress Test Runner
+- Node.js Backend
+- Cpress CLI
+- Browser Execution
+- Test Code and Application Code
 
 # Cypress Test Runner:
 The Cypress test runner is the core of the cypress architecture. It provides as interactive interface where you can write, run and debug your tests in real time. The test runner open your application in a browser and allows you to interact with it just like a user would. 

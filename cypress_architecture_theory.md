@@ -13,7 +13,7 @@ The Cypress test runner is the core of the cypress architecture. It provides as 
 (Read from video file)
 
 # Node.js Backend:
-Cypress is build on Node.js, where serves as the backend for running and managing tests. The node.js backend handles tasks like 
+Cypress is build on Node.js, which serves as the backend for running and managing tests. The node.js backend handles tasks like 
 (Read from video file.)
 This separation allows cypress to take advantage of Node.js capabilities while ensuring tests run efficiently.
 
@@ -22,43 +22,41 @@ The cypress command line interface (CLI) is the tool you use to interact with cy
 (Read from video file | Sow the example)
 The CLI is an essential tool for integrating cypress into your test development and workflow.
 
-- **_Browser Execution_**
+# Browser Execution
 
     Cypress runs tests directly in the browser providing a true end to end testing environment.
     This approach has several advantages:
     (Read from video file | Show the example)
 
-- **_Test Code and Application Code_**
-
+# Test Code and Application Code
     In cypress, your test code runs alongside your application code in the same execution loop. This unique approach allows for:
-    - **1. Synchronous execution**:
-        (Show the heading in video file and read from here)
-        Unlike traditional selenium based frameworks that use asynchronous execution, cypress runs synchronously making it easier to write and understand tests.
-    - **2. Access to application internals**:
-            (Show the heading in video file and read from here)
-            Cypress can access and manipulate the state of your application, providing powerful capabilities for testing complex scenarios. I have not tested this feature but seems its gonna be a time saving feature especially when you are testing a front heavy application.
-            As a tester, I always profer to test in the same condition as it was delivered to us then only we can certify the quality else quality go for a toss. But if you are testing a frontend heavy application and showing the information from multiple apis in the UI and if one or two api is still under development, we can stubb those api requests and test rest of the apis. This way test won't get halted. (Stubbing is mainly used to replicate the behaviour of an API in a controlled manner with predefined responses which allows to focus on testing the integration and functionality of the code without worrying about external dependencies.)
-    - **3. Automatic waiting>**:
-            (Show the heading in video file and read from here)
-            Cypress automatically waits for elements to appear reducing the need for hardcoding the waits and timeouts.
+- **1. Synchronous execution**:
+    (Show the heading in video file and read from here)
+    Unlike traditional selenium based frameworks that use asynchronous execution, cypress runs synchronously making it easier to write and understand tests.
+- **2. Access to application internals**:
+    (Show the heading in video file and read from here)
+    Cypress can access and manipulate the state of your application, providing powerful capabilities for testing complex scenarios. I have not tested this feature but seems its gonna be a time saving feature especially when you are testing a front heavy application.
+    As a tester, I always profer to test in the same condition as it was delivered to us then only we can certify the quality else quality go for a toss. But if you are testing a frontend heavy application and showing the information from multiple apis in the UI and if one or two api is still under development, we can stubb those api requests and test rest of the apis. This way test won't get halted. (Stubbing is mainly used to replicate the behaviour of an API in a controlled manner with predefined responses which allows to focus on testing the integration and functionality of the code without worrying about external dependencies.)
+- **3. Automatic waiting>**:
+    (Show the heading in video file and read from here)
+    Cypress automatically waits for elements to appear reducing the need for hardcoding the waits and timeouts.
         
-            When using Selenium for web automation, waiting for elements to load on a page can be tricky. 
-            Though we have Implicit Waits and Explicit Waits, test cases are often faile with these reasons
-                Element Not Found Error
-                Timeouts
-                Stale Element Exception
-            And hence we end up retrying a test case for N retries(may be 3) so to avoid flacky failure. 
+        When using Selenium for web automation, waiting for elements to load on a page can be tricky. 
+        Though we have Implicit Waits and Explicit Waits, test cases are often faile with these reasons
+            Element Not Found Error
+            Timeouts
+            Stale Element Exception
+        And hence we end up retrying a test case for N retries(may be 3) so to avoid flacky failure. 
 
-            In other hand, cypress waiting mechanism is not like selenium <Show the cypress architecture and explain this context.>
+    In other hand, cypress waiting mechanism is not like selenium <Show the cypress architecture and explain this context.>
 
 
-- **_How it all comes together_**:
-
+# How it all comes together:
     When you run a Cypress test, here's what happens under the hood (Show the video file for pointers and explain from this file)
-    - **Initialization :** The Cypress CLI initializes the Test Runner, which opens the specified browser and loads your application.
-    - **Test Execution :** The test code is executed in the browser's context, interacting with the application as a user would.
-    - **Node.js Integration :** The Node.js backend handles any necessary server-side tasks, such as stubbing network requests or accessing the file system.
-    - **Real-time Feedback :** The Test Runner provides real-time feedback, displaying the results of each test step, and allowing you to debug issues on the spot.
+- **Initialization :** The Cypress CLI initializes the Test Runner, which opens the specified browser and loads your application.
+- **Test Execution :** The test code is executed in the browser's context, interacting with the application as a user would.
+- **Node.js Integration :** The Node.js backend handles any necessary server-side tasks, such as stubbing network requests or accessing the file system.
+- **Real-time Feedback :** The Test Runner provides real-time feedback, displaying the results of each test step, and allowing you to debug issues on the spot.
 
 
 # How Cypress Commands Are Executed:

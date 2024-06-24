@@ -34,7 +34,6 @@
 	- Access to application internals
 	- Automatic waiting
 
-
 <How It All Comes Together>
 	- Initialization
 	- Test Execution

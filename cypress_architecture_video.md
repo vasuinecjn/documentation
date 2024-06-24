@@ -54,10 +54,10 @@
             .get('button[type="submit"]').click();
 ```
 	- Queuing Mechanism
-		- `cy.visit('/login')` is added to the queue.
-        - `cy.get('input[name="username"]').type('myUsername')` is added to the queue.
-        - `cy.get('input[name="password"]').type('myPassword')` is added to the queue.
-        - `cy.get('button[type="submit"]').click()` is added to the queue.
+- `cy.visit('/login')` is added to the queue.
+- `cy.get('input[name="username"]').type('myUsername')` is added to the queue.
+- `cy.get('input[name="password"]').type('myPassword')` is added to the queue.
+- `cy.get('button[type="submit"]').click()` is added to the queue.
 	- Execution Loop
 	- Command Execution Example
 ```javascript

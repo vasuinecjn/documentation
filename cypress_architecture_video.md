@@ -40,8 +40,24 @@
 
 # **_How Cypress Commands Are Executed_**
 	- Writing Cypress Commands
+```javascript
+            cy.visit('/login');
+            cy.get('input[name="username"]').type('myUsername');
+            cy.get('input[name="password"]').type('myPassword');
+            cy.get('button[type="submit"]').click();
+```
 	- Command Chaining
+```javascript
+            cy.visit('/login')
+            .get('input[name="username"]').type('myUsername')
+            .get('input[name="password"]').type('myPassword')
+            .get('button[type="submit"]').click();
+```
 	- Queuing Mechanism
+		- `cy.visit('/login')` is added to the queue.
+        - `cy.get('input[name="username"]').type('myUsername')` is added to the queue.
+        - `cy.get('input[name="password"]').type('myPassword')` is added to the queue.
+        - `cy.get('button[type="submit"]').click()` is added to the queue.
 	- Execution Loop
 	- Command Execution Example
 ```javascript
